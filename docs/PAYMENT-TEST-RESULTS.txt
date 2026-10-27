@@ -1,0 +1,11 @@
+2026-10-22T21:37:25.160984
+PASS Server uses stored fare and explicitly marks demo orders
+PASS Repeated checkout reuses the pending attempt
+PASS Another user cannot read or change payment records
+PASS Failed payment can be retried with a new attempt
+PASS Cancelling checkout preserves the seat booking
+PASS Browser checkout records a successful simulated payment
+PASS Successful payments are idempotent and cannot be overwritten
+PASS Demo receipt downloads and mobile checkout renders without errors
+PASS Booking cancellation records a simulated refund and blocks checkout
+PASS Rebooking creates a fresh attempt; driver cancellation refunds it

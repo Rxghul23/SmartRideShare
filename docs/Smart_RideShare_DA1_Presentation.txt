@@ -1,0 +1,245 @@
+PAGE 1
+D A T A  A N A L Y T I C S  — Z E R O T H  R E V I E W
+AI-Powered Smart RideShare
+Recommendation and Analytics System
+for Corporate Employees
+Domain: Data Analytics and Artificial Intelligence  |  Software-Based Project
+Godwin Durai Raja A
+26MAI1021  •  Project Leader
+Raghul. T
+26MCB1023  •  Member
+Submitted as part of the Data Analytics Zeroth Review
+
+PAGE 2
+Abstract
+Rapid urbanisation and the growth of corporate campuses have intensified traffic congestion, fuel consumption, and carbon emi ssions, 
+largely driven by single -occupancy commuting. This project proposes an AI -Powered Smart RideShare Recommendation and Analytics 
+System that goes beyond simple ride booking by applying data analytics and machine learning to historical travel behaviour, p referred 
+timings, routes, and employee preferences. The system follows an eleven -stage pipeline — from registration and ride request/offer 
+through data cleaning, feature engineering, and a scikit -learn based matching algorithm — to recommend compatible ride partners,
+ranked by a computed compatibility score. A layered architecture separates the web application, Ride/Analytics/Admin modules, the AI 
+Recommendation Engine, and a central MySQL data store, enabling components to evolve independently. Beyond matching, an analy tics 
+dashboard surfaces ridership trends, cost savings, and estimated emission reductions for employees and administrators alike, while a 
+continuous feedback loop retrains the matching and demand -prediction models over time. Piloted as a zeroth -review prototype, the
+platform is designed to reduce commuting costs, ease peak -hour congestion, and support organisational sustainability goals, with a clear 
+roadmap toward GPS-based live tracking, mobile apps, and deep learning -based recommendation.
+02
+
+PAGE 3
+Keywords
+1
+Ride-Sharing
+2
+Machine Learning
+3
+Data Analytics
+4
+Recommendation System
+5
+Corporate Mobility
+6
+Scikit-learn
+03
+
+PAGE 4
+Introduction
+Background &
+Motivation
+• Traditional carpooling is managed manually via 
+spreadsheets and messaging groups — it does not scale 
+and rarely adapts to changing schedules.
+• An automated, data-driven system continuously learns 
+from ride history and feedback to improve match quality 
+over time.
+• Dashboards built on ride data give administrators visibility 
+into utilisation and demand that manual processes cannot 
+provide.
+Scope of the Project
+• A web-based platform where employees register, log in, and request 
+or offer a ride.
+• Travel data is collected, cleaned, and engineered into features for a 
+machine-learning matching engine.
+• An analytics module generates reports and dashboards; an admin 
+module manages the platform.
+• Scoped as a zeroth-review prototype, with a roadmap toward GPS 
+tracking and a mobile app.
+04
+
+PAGE 5
+Problem Statement
+1 Traffic Congestion
+A disproportionately high number of single-
+occupant vehicles worsens congestion around 
+office hours.
+2 Fuel Cost & Consumption
+Single-occupancy commuting raises fuel use 
+and individual travel cost for employees.
+3 Carbon Emissions
+Thousands of single-occupant daily journeys 
+substantially raise an organisation's carbon 
+footprint.
+4 No Intelligent Matching
+Manual carpool arrangements ignore 
+schedule changes, route overlap, and 
+preferences.
+5 No Actionable Insights
+Organisations lack visibility into commuting 
+patterns needed for transport policy planning.
+05
+
+PAGE 6
+Literature Review
+Russell & Norvig — AI: A Modern Approach (2022)
+Theoretical basis for search, optimisation, and agent -based reasoning behind the 
+matching algorithm.
+Géron — Hands-On ML with Scikit-Learn, Keras & TensorFlow (2023)
+Guides practical supervised -learning implementation for demand prediction and 
+matching.
+Goodfellow, Bengio & Courville — Deep Learning (MIT Press)
+Conceptual grounding for neural -network approaches identified for future 
+scope.
+Chollet — Deep Learning with Python, 2nd Ed. (2023)
+Implementation guidance for the long -term migration to deep learning -based 
+recommendation.
+IEEE Xplore — Ride Sharing & Smart Transportation (2023–2025)
+Highlights clustering/similarity algorithms for matching and demand -forecasting 
+models.
+ACM Digital Library — Intelligent Transportation Systems & ML (2022–
+2025)
+Emphasises feature engineering (location, time -window, preference) for match 
+accuracy.
+06
+
+PAGE 7
+Objectives
+1 Develop an intelligent ride recommendation system that 
+pairs employees on similar routes and schedules. 2 Analyse employee travel behaviour to identify recurring 
+patterns in timing, location, and frequency.
+3 Reduce travel expenses for employees through cost -sharing 
+on pooled rides. 4 Predict ride demand to anticipate peak commuting windows 
+and resource needs.
+5 Generate dashboards and reports giving employees and 
+administrators clear visibility into activity. 6 Reduce carbon emissions by decreasing single -occupancy 
+vehicle trips.
+07
+
+PAGE 8
+Proposed Methodology
+An eleven-stage pipeline from employee registration through recommendation, feeding usage data back for continuous improvement.
+1
+User Registration
+2
+Employee Login
+3
+Ride Request/Offer
+4
+Data Collection
+5
+Data Cleaning
+6
+Feature Engineering
+7
+AI Matching Algorithm
+8
+Ride Recommendation
+9
+Analytics Dashboard
+10
+Feedback Collection
+11
+Continuous Model Improvement
+08
+
+PAGE 9
+System Architecture
+Employees
+Web Application  (Login / Register)
+Ride Module Analytics Module Admin Module
+AI Recommendation Engine
+Machine Learning Model Data Analytics
+MySQL Database
+Layered architecture: presentation → business modules → AI engine → persistent data store, each swappable independently. 09
+
+PAGE 10
+Module Description
+1 Ride Module Core ride lifecycle — create requests/offers, view matches, confirm a shared ride, and track status.
+2 Analytics Module Aggregates ride data into occupancy rate, cost savings, distance shared, and emission reduction metrics.
+3 Admin Module Manage accounts, monitor usage, configure matching parameters, and export reports.
+4 AI Recommendation Engine Scikit-learn model scores/ranks matches; analytics component forecasts demand trends.
+5 Data Layer (MySQL) Single source of truth for profiles, ride requests/offers, match history, feedback, and analytics.
+10
+
+PAGE 11
+Software & Hardware Requirements
+Software Stack
+Java Core server -side application logic
+JSP & Servlets Dynamic page generation & request handling
+MySQL Relational database for users, rides, analytics
+Apache Tomcat Web / application server
+HTML, CSS, JavaScript Front-end structure, styling, interactivity
+Python + scikit-learn ML model development for matching & prediction
+Hardware Requirements
+Processor
+Intel Core i5 or above
+RAM
+8 GB
+Storage
+256 GB SSD
+Network
+Stable internet connection
+11
+
+PAGE 12
+Expected Outcomes & Advantages
+1 Intelligent Matching
+Automated, accurate pairing by route, timing & 
+preference compatibility.
+2 Reduced Travel Cost
+Lower per-employee expense via shared fuel 
+and toll costs.
+3 Employee Convenience
+Self-service ride request/offer without manual 
+coordination.
+4 Traffic Reduction
+Fewer individual vehicles on the road at peak 
+hours.
+5 Carbon Emission Analysis
+Quantifiable estimates of emissions avoided 
+through pooling.
+6 Real-Time Dashboard
+Continuous visibility into ridership trends and 
+performance.
+12
+
+PAGE 13
+Future Scope
+1 GPS-based live tracking for real -time ride safety & 
+coordination. 2 Native Android/iOS mobile applications for wider 
+accessibility.
+3 Voice assistant integration for hands -free ride requests. 4 Migration to deep learning -based recommendation for 
+personalisation.
+5 Google Maps integration for live route optimisation & 
+navigation. 6 Electric vehicle (EV) support with dedicated matching & 
+incentives.
+13
+
+PAGE 14
+Conclusion
+The AI-Powered Smart RideShare Recommendation and Analytics System addresses inefficient, high -emission single-
+occupancy commuting by applying data analytics and machine learning to automate and optimise ride -sharing. A 
+structured pipeline — registration, data collection, feature engineering, AI -based matching, and continuous feedback -
+driven improvement — delivers accurate ride recommendations, while the layered architecture keeps the platform 
+maintainable and extensible for future enhancements such as live GPS tracking, mobile apps, and deep learning -based 
+recommendation. Overall, the project is expected to reduce commuting costs, ease traffic congestion, and support the 
+organisation's sustainability objectives.
+14
+
+PAGE 15
+References
+1.  S. Russell and P . Norvig, Artificial Intelligence: A Modern Approach, 4th Edition, Pearson, 2022.
+2.  Aurélien Géron, Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow, O'Reilly, 2023.
+3.  Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep Learning, MIT Press (latest updates).
+4.  F . Chollet, Deep Learning with Python, 2nd Edition, Manning, 2023.
+5.  IEEE Xplore Digital Library — Recent papers on Ride Sharing, Smart Transportation and Data Analytics (2023–2025).
+6.  ACM Digital Library — Research articles on Intelligent Transportation Systems and Machine Learning (2022–2025).
+15

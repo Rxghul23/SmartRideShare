@@ -1,0 +1,20 @@
+.tools/
+tmp/
+target/
+.local-config.json
+LOCAL-LOGIN.txt
+ml-service/models/
+__pycache__/
+*.pyc
+.metadata/
+.settings/org.eclipse.wst.server.core.prefs
+Local Tomcat.launch
+.chart-data-*/
+# Generated unpacked submission copies; retain the final submission ZIP.
+/output/submission/*/
+# Local credentials and database exports
+.env
+.env.*
+!.env.example
+*.log
+*.pid

@@ -1,0 +1,256 @@
+PAGE 1
+Title: AI-Powered Smart RideShare Recommendation and Analytics System for 
+Corporate Employees 
+Abstract: 
+             Urban commuting often results in traffic congestion, increased fuel 
+consumption, and higher carbon emissions. This project proposes an AI -
+powered Smart RideShare Recommendation and Analytics System that analyses 
+employee travel patterns, preferred timings, locations, and historical ride data to 
+recommend suitable ride -sharing partners. The system applies data analytics 
+and machine learning techniques to identify optimal ride matches, predict 
+demand, and generate dashboards for administrators . The solution aims to 
+reduce travel costs, improve transportation efficiency, and promote sustainable 
+mobility. 
+Keywords: 
+• Machine Learning 
+• Data Analytics  
+• Corporate Ride-Sharing  
+• Recommendation Engine  
+• Sustainable Mobility  
+• Predictive Analytics 
+Introduction: 
+Background and Motivation: 
+Urban commuting presents significant challenges worldwide, consistently 
+resulting in severe traffic congestion, increased fuel consumption, and higher 
+carbon emissions. For corporate employees commuting daily, these 
+inefficiencies not only inflate personal  travel expenses but also contribute 
+heavily to environmental degradation. Traditional transportation models often 
+lack dynamic, data -driven solutions to optimize daily routes and maximize 
+vehicle occupancy.  
+Problem Statement and Significance: 
+ There is a critical need for an intelligent system that can effectively match 
+commuters based on complex, overlapping parameters. This project addresses 
+
+PAGE 2
+this gap by proposing an AI -powered Smart RideShare Recommendation and 
+Analytics System specifically tailored for corporate employees . By leveraging 
+data analytics and machine learning techniques, the system analyzes employee 
+travel patterns, preferred timings, locations, and historical ride data to identify 
+optimal ride matches. The significance of this project lies in its potential to  
+drastically reduce commuting costs, improve daily travel convenience for 
+employees, and provide administrators with actionable data through real -time 
+analytics dashboards. 
+Project Objectives: 
+• Develop an intelligent ride recommendation system.  
+• Analyse employee travel behaviour.  
+• Reduce travel expenses through ride sharing.  
+• Predict ride demand using analytics.  
+• Generate dashboards and reports.  
+• Reduce carbon emissions.  
+Literature Survey: 
+S.No                     Paper       Year Relates to our project 
+1 CallCab: A Unified Recommendation 
+System for Carpooling and Regular 
+Taxicab Services 
+        2013 Carpool recommendation, 
+minimum detour, real -time 
+matching 
+2 A Carpooling Recommendation 
+System for Taxicab Services 
+       2014 Carpooling Recommendation 
+System for Taxicab Services 
+3 An Optimal Ride Sharing 
+Recommendation Framework for 
+Carpooling Services 
+2018 Very relevant for your 
+recommendation engine and 
+optimization 
+4 Recommendation for Ridesharing 
+Groups Through Destination 
+Prediction on Trajectory Data 
+2021 Uses trajectory/destination 
+prediction to form 
+ridesharing groups. 
+5 An Enhanced Ride Sharing Model 
+Based on Human Characteristics and 
+Machine Learning Recommender 
+System 
+2020 Particularly useful for your 
+ML-based employee 
+matching. 
+6 Proactive and Reactive Carpooling 
+Recommendation System Based on 
+Spatiotemporal and Geosocial Data 
+2016 Uses mobility history and 
+social information for 
+matching 
+7 Real-Time Route Search by Locations 2020 Route similarity and real-time 
+route recommendation; 
+directly applicable to 
+ridesharing 
+
+PAGE 3
+8 A Real -Time Taxicab 
+Recommendation System Using Big 
+Trajectories Data 
+2017 GPS trajectory matching and 
+large-scale recommendation 
+using Spark. 
+9 A Path-Based Equilibrium Model for 
+Ridesharing Matching 
+2020 Matching drivers/riders while 
+considering route and detour 
+constraints. 
+10 Optimizing Flexible One -to-Two 
+Matching in Ride -Hailing Systems 
+with Boundedly Rational Users 
+2021 Matching optimization, 
+detour limits and user 
+acceptance. 
+11 A General Equilibrium Model for 
+Multi-Passenger Ridesharing 
+Systems with Stable Matching 
+2023 Multi-passenger matching 
+and stable matching. 
+12 How Machine Learning Informs 
+Ride-Hailing Services: A Survey 
+ 
+2022 Excellent 
+background/review paper  
+covering ML, mobility 
+patterns, matching and 
+dispatching. 
+13 Short-Term Prediction of Demand for 
+Ride-Hailing Services: A Deep 
+Learning Approach 
+2021 Useful for your ride demand 
+prediction/analytics 
+module. 
+14 Predicting Origin -Destination Ride -
+Sourcing Demand with a Spatio -
+Temporal Encoder-Decoder Residual 
+Multi-Graph Convolutional Network 
+2021 Advanced AI approach for OD 
+demand prediction. 
+15 Passenger Demand Forecasting in 
+the Ridesharing Context: A 
+Comparison of Statistical and Deep 
+Learning Approaches 
+2020 Compares regression, 
+exponential smoothing and 
+LSTM for demand forecasting 
+16 Uncertainty-Aware Deep Multi -
+Graph Learning Approach for 
+Ridesharing Demand Prediction 
+2026 Very recent work on deep 
+learning, graph models and 
+ridesharing demand. 
+17 Dynamic Stock Model Based 
+Assessment of Carpooling in 
+Passenger Transportation Carbon 
+Emissions 
+2022 Highly relevant to your 
+sustainability/CO₂ analytics . 
+Also focuses on Mumbai 
+18 Environmental Impacts of Shared 
+Mobility: A Systematic Literature 
+Review 
+2024 Strong reference for the 
+environmental benefits of 
+carpooling/shared mobility. 
+19 Evaluating the Carbon Emission 
+Impacts of Shifting to Ride-Pooling: A 
+User Group Perspective 
+2026 Recent research connecting 
+user groups with CO₂ 
+reduction. 
+20 Does Carpooling Reduce Carbon 
+Emissions? The Effect of 
+Environmental Policies in France 
+2025 Useful for discussing 
+occupancy, adoption and 
+environmental impact. 
+21 The Optimal Government Policy 
+Towards Carpooling Market: A 
+Differential Game Analysis 
+2026 Recent research on 
+carpooling adoption and 
+emission reduction. 
+
+PAGE 4
+Considering Carbon Emission 
+Reduction 
+22 Ride Sharing & Data Privacy: An 
+Analysis of the State of Practice 
+2021 Very useful for your 
+employee privacy/security 
+module. 
+23 Recommendation for Ridesharing 
+Groups Through Destination 
+Prediction on Trajectory Data 
+2021 Useful for destination 
+prediction and intelligent 
+grouping. 
+24 CallCab: A Unified Recommendation 
+System for Carpooling and Regular 
+Taxicab Services 
+2013 Strong foundational paper for 
+recommendation 
+architecture and real -time 
+matching 
+25 A Real -Time Taxicab 
+Recommendation System Using Big 
+Trajectories Data 
+2017 Strong reference for big-data 
+trajectory processing and 
+recommendation. 
+ 
+6. Methodology 
+6.1 System Architecture Diagram and Explanation 
+Architecture Overview 
+The proposed system follows a multi -tier architecture, seamlessly integrating 
+web-based user interfaces with a robust backend and an intelligent machine 
+learning pipeline. 
+Component Breakdown: 
+• User Interface (Employees): Employees interact with the system via a web 
+browser to access the Login/Register portal. This front -end is developed 
+using HTML, CSS, and JavaScript to ensure a responsive and intuitive user 
+experience.  
+• Web Application (Backend Core): Powered by Java, JSP , and Servlets, and 
+hosted on an Apache Tomcat server . This layer acts as the central hub, 
+routing user requests to the appropriate sub-modules.  
+• Functional Modules: 
+o Ride Module: Handles core operations such as users submitting a 
+ride request or offering a ride.  
+o Analytics Module: Processes data to generate visual insights, such 
+as carbon emission analysis and traffic reduction metrics.  
+
+PAGE 5
+o Admin Module:  Provides administrators with tools to monitor 
+system health, view generated dashboards, and manage user 
+accounts.  
+• AI Recommendation Engine & Machine Learning Model:  This is the 
+analytical brain of the system, built using Python and the scikit -learn 
+library. It processes data from the modules to execute the AI matching 
+algorithm, predicting demand and generating optimal ride 
+recommendations.  
+• Database Management: A MySQL Database is used for persistent storage. 
+It securely stores employee credentials, historical ride data, travel 
+patterns, and system logs necessary for continuous model improvement.  
+6.2 System Workflow 
+The operational workflow of the system progresses through the following 
+sequential steps: 
+1. User Registration and Employee Login.  
+2. Ride Request/Offer submission by the employee.  
+3. Data Collection from user inputs and historical logs.  
+4. Data Cleaning to handle inconsistencies.  
+5. Feature Engineering to extract relevant travel patterns and timings.  
+6. Execution of the AI Matching Algorithm to find suitable partners.  
+7. Delivery of the Ride Recommendation to the user.  
+8. Real-time updates to the Analytics Dashboard.  
+9. Feedback Collection post-ride.  
+10. Continuous Model Improvement based on feedback and new data. 
+6.3:System Architecture Diagram: 
+
+PAGE 6
+ 

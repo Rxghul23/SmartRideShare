@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+ <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"/>
+ <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-NoProfile -ExecutionPolicy Bypass -File &quot;${workspace_loc:/SmartRideShare/scripts/build.ps1}&quot;"/>
+ <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/SmartRideShare}"/>
+</launchConfiguration>

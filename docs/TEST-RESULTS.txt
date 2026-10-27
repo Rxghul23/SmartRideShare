@@ -1,0 +1,20 @@
+Local stack integration results
+2026-10-22T15:38:24.090637
+
+PASS Anonymous access rejected
+PASS Registration and password login
+PASS Admin authorization and CSRF enforcement
+PASS Invalid seats and past departures rejected
+PASS Python route/time recommendations and stored match history
+PASS Own-ride booking and cross-user edits rejected
+PASS Seat reservation and overbooking prevention
+PASS Passenger details restricted to driver and administrator
+PASS Cancellation releases exactly one seat
+PASS Concurrent booking: exactly one winner for the final seat
+PASS Completion, feedback eligibility, unique feedback and automatic retraining
+PASS Feedback model training, 7-day demand forecast and analytics
+PASS Driver cancellation propagates to bookings
+PASS Account disable invalidates access
+PASS CSV report export
+PASS Admin settings persist
+PASS Logout invalidates session

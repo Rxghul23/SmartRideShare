@@ -1,0 +1,12 @@
+2026-10-22T15:09:29.388816
+PASS Booked passenger and driver can access the same conversation
+PASS Nonparticipants cannot list, read or send ride messages
+PASS Message retry is idempotent and reused keys are rejected
+PASS Unread counts and persistent read receipts update correctly
+PASS Messages arrive in a second browser automatically without losing drafts
+PASS Message markup is displayed as text and cannot execute
+PASS Conversation survives page reload
+PASS Chat renders on mobile without horizontal overflow or JavaScript errors
+PASS Older message pagination preserves chronological order
+PASS Cancelling a booking revokes chat access
+PASS Closed rides retain read-only history and reject new messages

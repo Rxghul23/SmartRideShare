@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+ <display-name>Smart RideShare</display-name>
+ <welcome-file-list><welcome-file>index.jsp</welcome-file></welcome-file-list>
+ <session-config><session-timeout>60</session-timeout><cookie-config><http-only>true</http-only></cookie-config><tracking-mode>COOKIE</tracking-mode></session-config>
+</web-app>

@@ -1,0 +1,19 @@
+Captioned walkthrough of actual local browser actions. No audio.
+Captured 24 October 2026. Payment uses test mode.
+
+00:00  01  Sign in to access the Ride, Analytics and Admin modules
+00:07  02  Driver dashboard: offer available seats to the community
+00:14  03  Select pickup, destination, time and seats; distance and fare update
+00:21  04  Road route on the map; price is INR 5 per kilometre per seat
+00:28  05  Ride published with two available passenger seats
+00:35  06  A different user receives the matching ride automatically
+00:42  07  Passenger confirms the booking; one seat is reserved
+00:49  08  Checkout offers UPI, card and net banking in test mode
+00:56  09  Payment recorded with a receipt; no money is charged
+01:03  10  Booked passengers can coordinate pickup through ride chat
+01:10  11  The driver reply arrives automatically in the passenger account
+01:17  12  Cancelling the booking releases its seat and records a test refund
+01:24  13  Analytics summarises recorded journeys and estimated impact
+01:31  14  Administrators manage accounts, rides, settings and service health
+
+Completion and feedback: a driver completes a ride only after departure; the passenger may then rate it. Future departures cannot be completed.

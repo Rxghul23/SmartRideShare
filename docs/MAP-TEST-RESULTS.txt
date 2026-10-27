@@ -1,0 +1,13 @@
+2026-10-22T15:15:22.784090
+PASS Map and automatic AI preview load without creating duplicate requests
+PASS Server recomputes route and fare instead of trusting stale/tampered form values
+PASS A newly published ride appears automatically for a saved request
+PASS Saved AI recommendations are generated from live MySQL offers
+PASS Automatically recommended ride can be booked with persisted match history
+PASS Location changes update road distance and fare: ('5.3', '27') -> ('15.1', '76')
+PASS Identical endpoints clear stale route values
+PASS Routing outage clears stale values; retry recovers
+PASS Clicking the map sets coordinates and recalculates the route
+PASS Mobile map layout and map navigation lifecycle
+PASS Administrator module remains protected
+PASS Sign-in module selector opens the selected authorised module
